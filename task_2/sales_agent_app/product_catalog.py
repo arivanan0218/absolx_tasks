@@ -52,7 +52,7 @@ def get_recommendation(category, budget=None):
             product for product in products if product["price"] <= budget]
     return products
 
-# Function to detect product category in user input...
+# Function to detect product category in user input
 
 
 def detect_categories(user_input):
