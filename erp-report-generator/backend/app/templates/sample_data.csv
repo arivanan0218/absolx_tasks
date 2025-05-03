@@ -1,0 +1,28 @@
+date,product_name,units_sold,revenue,inventory_level,category,region
+2024-04-01,Laptop Pro X,12,14400,45,Electronics,North
+2024-04-01,Wireless Earbuds,35,3150,120,Electronics,North
+2024-04-01,Smart Watch SE,18,3600,62,Wearables,East
+2024-04-02,Laptop Pro X,8,9600,37,Electronics,South
+2024-04-02,Wireless Earbuds,42,3780,78,Electronics,West
+2024-04-02,Smart Watch SE,24,4800,38,Wearables,North
+2024-04-03,Laptop Pro X,15,18000,22,Electronics,East
+2024-04-03,Wireless Earbuds,38,3420,40,Electronics,East
+2024-04-03,Smart Home Hub,11,2750,33,Smart Home,West
+2024-04-04,Smart Watch SE,31,6200,7,Wearables,South
+2024-04-04,Smart Home Hub,14,3500,19,Smart Home,North
+2024-04-04,Wireless Earbuds,29,2610,11,Electronics,East
+2024-04-05,Laptop Pro X,20,24000,2,Electronics,West
+2024-04-05,Smart Watch SE,16,3200,0,Wearables,West
+2024-04-05,Smart Home Hub,19,4750,0,Smart Home,North
+2024-05-01,Laptop Pro X,15,18000,35,Electronics,North
+2024-05-01,Wireless Earbuds,40,3600,95,Electronics,North
+2024-05-01,Smart Watch SE,22,4400,54,Wearables,East
+2024-05-02,Laptop Pro X,14,16800,21,Electronics,South
+2024-05-02,Wireless Earbuds,47,4230,48,Electronics,West
+2024-05-02,Smart Watch SE,28,5600,26,Wearables,North
+2024-05-03,Laptop Pro X,19,22800,2,Electronics,East
+2024-05-03,Wireless Earbuds,45,4050,3,Electronics,East
+2024-05-03,Smart Home Hub,18,4500,15,Smart Home,West
+2024-05-04,Smart Watch SE,34,6800,0,Wearables,South
+2024-05-04,Smart Home Hub,22,5500,0,Smart Home,North
+2024-05-04,Wireless Earbuds,36,3240,0,Electronics,East

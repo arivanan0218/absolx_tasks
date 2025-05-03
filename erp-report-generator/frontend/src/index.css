@@ -1,0 +1,64 @@
+@import 'react-datepicker/dist/react-datepicker.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-50 text-gray-900;
+}
+
+.report-container {
+  @apply mt-6 p-6 bg-white rounded-lg shadow-md;
+}
+
+.report-content {
+  @apply whitespace-pre-line;
+}
+
+.file-input-label {
+  @apply flex items-center justify-center w-full h-32 px-4 transition bg-white border-2 border-gray-300 border-dashed rounded-md appearance-none cursor-pointer hover:border-gray-400 focus:outline-none;
+}
+
+.btn-primary {
+  @apply bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded;
+}
+
+.btn-secondary {
+  @apply bg-gray-600 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded;
+}
+
+/* Add this to your index.css file */
+@page {
+  size: A4;
+  margin: 0;
+}
+
+@media print {
+  html, body {
+    width: 210mm;
+    height: 297mm;
+  }
+  
+  .report-container {
+    width: 210mm !important;
+    padding: 20mm !important;
+    margin: 0 !important;
+    box-shadow: none !important;
+    border: none !important;
+  }
+  
+  .no-print {
+    display: none !important;
+  }
+  
+  /* Ensure page breaks don't occur in the middle of elements */
+  table, tr, td, th, div.page-section {
+    page-break-inside: avoid;
+  }
+  
+  /* Add page breaks before major sections */
+  h2, .page-section {
+    page-break-before: auto;
+  }
+}
